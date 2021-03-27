@@ -1,6 +1,6 @@
-# photography-portfolio-project
+# Photography portfolio project
 
-A photography portfolio project built using just HTML and CSS based on a design which was provided. 
+A photography portfolio project built using HTML and CSS based on a design which was provided. 
 
 Built following an atomic design process, building a pattern library of the individual elements which were then transferred into the main site build.
 
