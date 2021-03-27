@@ -1,4 +1,4 @@
-# Photography portfolio project
+# Photography Portfolio
 
 A photography portfolio project built using HTML and CSS based on a design which was provided. 
 
