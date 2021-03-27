@@ -1,0 +1,151 @@
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Pacifico', cursive; */
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header__title {
+    font-family: Pacifico;
+}
+.pattern {
+    box-shadow: 2px 5px 8px #B2B5BA;
+    margin: 1rem 0;
+    padding: 1rem;
+    flex-basis: 25%;
+}
+.pattern__title {
+    color: #4A4A4A;
+    font-size: 1rem;
+}
+.pattern__text {
+    color: #4A4A4A;
+}
+.pattern__example {
+    margin-top: 1rem;
+    padding-top: 2rem;
+    border-top: 1px solid #4A4A4A;
+}
+
+
+/* Atoms */
+
+.logo {
+    margin: 0.25rem;
+}
+
+.nav__link {
+    font-family: 'Nunito', sans-serif;
+    color: #4a4a4a;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.25rem;
+}
+
+
+.spyglass {
+    padding: 0.25rem;
+}
+
+.herotext {
+    font-family: 'Nunito', sans-serif;
+    color: #FEFEFE;
+    font-size: 3rem;
+}
+
+.herotextred {
+    font-family: 'Nunito', sans-serif;
+    color: #FF6A7C;
+    font-size: 3rem;
+}
+
+.herotextblue {
+    font-family: 'Pacifico', cursive;;
+    color: #41CADD;
+    font-size: 3rem;
+}
+
+.title {
+    font-family:  'Nunito', sans-serif;
+    color: #4a4a4a;
+    font-size: 3rem;
+}
+
+.card__singletag {
+    background: #41CADD;
+    color: #FEFEFE;
+    display: inline;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.8rem;
+}
+
+.heading__small {
+    font-family: 'Nunito', sans-serif;
+    color: #4a4a4a;
+    font-size: 1.5rem;
+}
+
+.text__small {
+    font-family: 'Nunito', sans-serif;
+    color: #4a4a4a;
+    font-size: 0.8rem;
+}
+
+.text__standard {
+    font-family: 'Nunito', sans-serif;
+    color: #4a4a4a;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.card__link {
+    font-family: 'Nunito', sans-serif;
+    color: #41CADD;
+    font-size: 1rem;
+}
+
+.article__link {
+    font-family: 'Nunito', sans-serif;
+    color: #4a4a4a;
+    font-size: 1rem;
+}
+
+.form__submit {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    padding: 1.5rem 5rem;
+    color:#FEFEFE;
+    background-color: #FF6A7C;
+    border: none;
+    border-radius: 3px;
+}
+
+.form__inputfield {
+    font-family: 'Nunito', sans-serif;
+    border: solid 1px #4a4a4a;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0.25rem;
+}
+
+/* Molecules */
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.card__tags {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,48 @@
+.sidebar_list {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar_list__li {
+    padding: 1rem 0;
+}
+
+.sidebar_content {
+    margin-bottom: 3rem;
+}
+
+.main_article {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+.tags--article {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.article_image {
+    margin: 1rem;
+    object-fit: cover;
+}
+
+.article_list {
+    width: 25%;
+}
+
+.articlepage_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media all and (max-width:500px) {
+    .article_list {
+        display: none;
+    }
+    .main_article {
+        width: 100%;
+    }
+}

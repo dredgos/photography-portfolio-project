@@ -1,0 +1,51 @@
+.logo {
+    margin: 0.25rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.navbar__link {
+    font-family: var(--primary-font);
+    color: var(--darkgrey);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.25rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.spyglass {
+    padding: 0.25rem;
+    margin-left: 1rem;
+}
+
+.site_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site_header__header_right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mobile_menu {
+    display: none;
+}
+
+@media all and (max-width:780px) {
+    .site_header__header_right {
+        display: none;
+    }
+
+    .mobile_menu {
+        display: inline-block;
+        margin-right: 0.25rem;
+    }
+}

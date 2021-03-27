@@ -1,0 +1,46 @@
+.contactform {
+    width: 65%;
+}
+
+.contactform__submit {
+    font-family: var(--primary-font);
+    font-size: 1.5rem;
+    margin: 2rem 1rem 2rem 0;
+    padding: 1.5rem 3rem;
+    color: var(--offwhite);
+    background-color: var(--coralpink);
+    border: none;
+    border-radius: 3px;
+}
+
+.contactform__inputfield {
+    font-family: var(--primary-font);
+    border: solid 1px var(--lightgrey);
+    font-size: 0.8rem;
+    padding: 0.25rem;
+    margin: 1rem 1rem 2rem 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+.contactform__textarea {
+    font-family: var(--primary-font);
+    border: solid 1px var(--lightgrey);
+    font-size: 0.8rem;
+    padding: 0.25rem;
+    margin: 1rem 1rem 2rem 0;
+    width: 100%;
+    max-height: 6rem;
+    min-height: 6rem;
+    resize: none;
+    box-sizing: border-box;
+}
+
+@media all and (max-width:500px) {
+
+    .contactform {
+       width: 100%;
+    }
+}
